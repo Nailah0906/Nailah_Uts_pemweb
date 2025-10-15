@@ -1,0 +1,633 @@
+/* Reset dasar */
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body dan background */
+body {
+  font-family: 'Bradley Hand', cursive;
+  background-color: #f7f4ea;
+  background-image: radial-gradient(#D6A99D 6%, transparent 7%);
+  background-size: 30px 30px;
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout dasar */
+.wrapper, nav {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+/* Logo */
+.logo a {
+  font-size: 50px;
+  font-weight: bold;
+  float: left;
+  font-family: Century Gothic;
+  color: #F9F6F3;
+}
+
+/* Menu navigasi */
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  top: 0;
+  background: #A6B28B;
+  z-index: 99;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: #FFF2EF;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section layout */
+section {
+  scroll-margin-top: 80px;
+  margin: auto;
+  display: flex;
+}
+
+/* Gambar profil dan chibi */
+.profile_img {
+  margin-top: 50px;
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.chibi_img {
+  margin-top: 50px;
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Judul nama dan efek blink */
+.judul-nama {
+  position: relative;
+  display: inline-block;
+}
+
+.blink_img {
+  position: absolute;
+  top: -10px;
+  right: -60px;
+  width: 350px;
+  height: auto;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Teks dan heading */
+h1 {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #386641;
+  width: 100%;
+  line-height: 50px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #3E3F29;
+  width: 100%;
+  line-height: 50px;
+}
+
+#kp,#tutorial,#web {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.desk p {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1C352D;
+  width: 100%;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+s {
+  font-size: 25px;
+  font-weight: 800;
+  color: #F08787;
+  width: 100%;
+  line-height: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+/* Section Home */
+#home {
+  display: flex;
+  align-items: center;
+  gap: 5em;
+}
+
+#home h1 img {
+  width: 50px;
+  transform: translateY(-20px);
+}
+
+/* Tentang dan Hobi */
+#informasi,#kp,#web,#tutorial,
+#hobi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Motto */
+#Motto {
+  padding-top: 20px;
+}
+
+/* Jadwal Kuliah */
+#course {
+  padding-top: 20px;
+}
+
+#jadwal {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+
+/* Tabel jadwal */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #333;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+th {
+  background-color: #7D8D86;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#kp, #course,
+#web,
+#tutorial {
+  margin: 70px auto;
+}
+
+/* Reset dasar */
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body dan background */
+body {
+  font-family: 'Bradley Hand', cursive;
+  background-color: #f7f4ea;
+  background-image: radial-gradient(#D6A99D 6%, transparent 7%);
+  background-size: 30px 30px;
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout dasar */
+.wrapper, nav {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+/* Logo */
+.logo a {
+  font-size: 50px;
+  font-weight: bold;
+  float: left;
+  font-family: Century Gothic;
+  color: #F9F6F3;
+}
+
+/* Menu navigasi */
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  top: 0;
+  background: #A6B28B;
+  z-index: 99;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: #FFF2EF;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section layout */
+section {
+  scroll-margin-top: 80px;
+  margin: auto;
+  display: flex;
+}
+
+/* Gambar profil dan chibi */
+.profile_img {
+  margin-top: 50px;
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.chibi_img {
+  margin-top: 50px;
+  width: 400px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Judul nama dan efek blink */
+.judul-nama {
+  position: relative;
+  display: inline-block;
+}
+
+.blink_img {
+  position: absolute;
+  top: -10px;
+  right: -60px;
+  width: 350px;
+  height: auto;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Teks dan heading */
+h1 {
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #386641;
+  width: 100%;
+  line-height: 50px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #3E3F29;
+  width: 100%;
+  line-height: 50px;
+}
+
+#kp,#tutorial,#web {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.desk p {
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1C352D;
+  width: 100%;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+s {
+  font-size: 25px;
+  font-weight: 800;
+  color: #F08787;
+  width: 100%;
+  line-height: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+/* Section Home */
+#home {
+  display: flex;
+  align-items: center;
+  gap: 5em;
+}
+
+#home h1 img {
+  width: 50px;
+  transform: translateY(-20px);
+}
+
+/* Tentang dan Hobi */
+#informasi,#kp,#web,#tutorial,
+#hobi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Motto */
+#Motto {
+  padding-top: 20px;
+}
+
+/* Jadwal Kuliah */
+#course {
+  padding-top: 20px;
+}
+
+#jadwal {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+
+/* Tabel jadwal */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #333;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+th {
+  background-color: #7D8D86;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#kp, #course,
+#web,
+#tutorial {
+  margin: 70px auto;
+}
+
+
+/* Section Web & Kontak */
+#course,
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 3em;
+  padding-top: 2em;
+}
+
+#course .desk,
+#contact .desk {
+  width: 100%;
+}
+
+#contact a {
+  color: #5D688A;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  color: #A2AF9B;
+}
+
+/* Tombol Scroll ke atas */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #7D8D86;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+#scrollTopBtn:hover {
+  background-color: #5a6b61;
+}
+
+#web,#tutorial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  background-color: #f8f6f1;
+  padding: 50px;
+  margin: 80px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(150, 150, 150, 0.2);
+  max-width: 1000px;
+}
+
+/* Judul Tutorial */
+#tutorial h2 {
+  color: #386641;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Konten di dalam tutorial */
+#tutorial .kolom {
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Gaya untuk paragraf di tutorial */
+#tutorial p {
+  font-size: 18px;
+  color: #3E3F29;
+  line-height: 1.7;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+
+.kdhtml_img {
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 10px;
+  border: 2px solid #d9c6b0;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vs_image,
+.fl_image,
+.tl_image,
+.bh_image,
+.sv_image,
+.html_image, 
+.mengi_image {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+#course,
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 3em;
+  padding-top: 2em;
+}
+
+#course .desk,
+#contact .desk {
+  width: 100%;
+}
+
+#contact a {
+  color: #5D688A;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#contact a:hover {
+  color: #A2AF9B;
+}
+
+/* Tombol Scroll ke atas */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #7D8D86;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+#scrollTopBtn:hover {
+  background-color: #5a6b61;
+}
+
